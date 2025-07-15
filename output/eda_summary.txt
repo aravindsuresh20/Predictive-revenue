@@ -1,0 +1,31 @@
+Dataset Shape: (800, 14)
+
+Missing Values:
+Operating_Income    0
+Expenses            0
+Assets              0
+Liabilities         0
+Equity              0
+Revenue             0
+Cash_Flow           0
+Net_Income          0
+Debt_to_Equity      0
+ROA                 0
+Profit_Margin       0
+Interest_Expense    0
+Tax_Expense         0
+Dividend_Payout     0
+dtype: int64
+
+Summary Statistics:
+       Operating_Income      Expenses        Assets  ...  Interest_Expense   Tax_Expense  Dividend_Payout
+count      8.000000e+02  8.000000e+02  8.000000e+02  ...      8.000000e+02  8.000000e+02     8.000000e+02
+mean       5.472607e+06  2.750536e+06  2.745014e+08  ...      1.042662e+06  7.715606e+05     1.481638e+06
+std        2.642462e+06  1.318118e+06  1.293282e+08  ...      5.503283e+05  4.203083e+05     8.290883e+05
+min        1.045554e+06  5.208441e+05  5.070430e+07  ...      1.074449e+05  5.034946e+04     1.011645e+05
+25%        3.172831e+06  1.559479e+06  1.642343e+08  ...      5.558731e+05  4.004082e+05     7.526477e+05
+50%        5.560746e+06  2.771217e+06  2.790011e+08  ...      1.043596e+06  7.558056e+05     1.453308e+06
+75%        7.783024e+06  3.827811e+06  3.858434e+08  ...      1.521543e+06  1.159785e+06     2.147992e+06
+max        9.997459e+06  4.997362e+06  4.992564e+08  ...      1.998975e+06  1.498851e+06     2.996824e+06
+
+[8 rows x 14 columns]

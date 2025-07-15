@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <title>Automated Predictive Revenue</title>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"/>
+ <link href="/static/css/style.css" rel="stylesheet"/>
+ <style>
+   .logo {
+     width: auto; /* Increased size */
+     height: 60px;
+   }
+ </style>
+</head>
+<body>
+ <!-- Enhanced Background Animation -->
+ <div class="bg-animation">
+   <div class="bg-element"></div>
+   <div class="bg-element"></div>
+   <div class="bg-element"></div>
+   <div class="bg-element"></div>
+ </div>
+ <!-- Pulsing grid overlay -->
+ <div class="grid-overlay"></div>
+ <!-- Header -->
+ <header>
+   <div class="logo-container">
+     <img src="/static/assets/3.png" alt="Logo" class="logo">
+   </div>
+ </header>
+ <!-- Main Content -->
+ <section class="hero">
+   <div class="title-container">
+     <h1 id="animated-title">AUTOMATED PREDICTIVE REVENUE</h1>
+   </div>
+   <p>Advanced forecasting powered by machine learning</p>
+   <div class="form-section">
+     <form method="POST">
+       <div>
+         <label for="prediction_days" style="display:block; margin-bottom:8px; text-align:left;">ENTER PREDICTION DAYS</label>
+         <input type="number" id="prediction_days" name="prediction_days" class="form-control" required>
+       </div>
+       <button type="submit" class="btn-spacex">GENERATE FORECAST</button>
+     </form>
+     {% if error %}
+     <div style="background:rgba(139,0,0,0.8); color:#ffcdd2; padding:10px; margin-top:20px; border-left: 3px solid #ff5252; animation: fadeIn 0.5s ease-out;">
+       {{ error }}
+     </div>
+     {% endif %}
+   </div>
+ </section>
+ <!-- Footer -->
+ <footer>
+   <div> Powered By Aravind Suresh
+   <div>
+     <a href=></a>
+     <a href=></a>
+     <a href=></a>
+   </div>
+ </footer>
+ <script src="/static/js/script.js"></script>
+</body>
+</html>

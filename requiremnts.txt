@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+xgboost
+sklearn
+flask
+openpyxl
+os and datetime
